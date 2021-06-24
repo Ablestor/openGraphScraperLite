@@ -1,7 +1,7 @@
 {
-  "name": "open-graph-scraper-lite",
-  "description": "Javascript scraper module for Open Graph and Twitter Card info",
-  "version": "1.1.1",
+  "name": "@uehreka/open-graph-scraper-react-native",
+  "description": "React Native scraper module for Open Graph and Twitter Card info",
+  "version": "1.1.0",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -16,16 +16,21 @@
   "engines": {
     "node": ">=10.x.x"
   },
-  "author": {
+  "authors": [
+    {
     "name": "Josh Shemas",
     "email": "jjs90jjs@gmail.com",
     "url": "https://github.com/jshemas"
-  },
+    },
+    {
+    "name": "Chris Uehlinger",
+    "email": "chris.uehlinger@gmail.com",
+    "url": "https://github.com/chrisuehlinger"
+    }
+  ],
   "dependencies": {
     "chardet": "^1.3.0",
     "cheerio": "^1.0.0-rc.3",
-    "ky-universal": "^0.8.2",
-    "ky": "^0.25.1",
     "iconv-lite": "^0.6.2",
     "validator": "^13.5.2"
   },
@@ -50,8 +55,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jshemas/openGraphScraperLite.git",
-    "web": "https://github.com/jshemas/openGraphScraperLite"
+    "url": "https://github.com/chrisuehlinger/openGraphScraperLite.git",
+    "web": "https://github.com/chrisuehlinger/openGraphScraperLite"
   },
   "keywords": [
     "app links",
